@@ -11,6 +11,14 @@ The widget sits above the prompt. `/token-stats` prints the full report, includi
 
 ## Install
 
+From npm (also consumed by pnpm, which uses the npm registry):
+
+```bash
+cmd mods add token-metrics
+```
+
+From GitHub:
+
 ```bash
 cmd mods add gnahiak2/token-metrics
 ```

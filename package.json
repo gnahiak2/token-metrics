@@ -1,11 +1,36 @@
 {
 	"name": "token-metrics",
 	"version": "0.1.0",
-	"private": true,
 	"description": "Real-time tokens/second, time to first token, and session/lifetime averages for Command Code.",
 	"type": "module",
 	"repository": "https://github.com/gnahiak2/token-metrics",
-	"keywords": ["cmd-mod", "cmd-mod-hook", "cmd-mod-command", "cmd-mod-widget"],
+	"homepage": "https://github.com/gnahiak2/token-metrics#readme",
+	"bugs": {
+		"url": "https://github.com/gnahiak2/token-metrics/issues"
+	},
+	"author": "Kaihang (https://github.com/gnahiak2)",
+	"keywords": [
+		"cmd-mod",
+		"cmd-mod-command",
+		"cmd-mod-hook",
+		"command-code",
+		"tokens-per-second",
+		"ttft",
+		"observability"
+	],
+	"files": [
+		"index.ts",
+		"metrics.ts",
+		"tracker.ts",
+		"lifetime.ts",
+		"README.md"
+	],
+	"engines": {
+		"node": ">=22"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
 	"commandcode": {
 		"mods": ["./index.ts"]
 	},
