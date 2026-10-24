@@ -1,0 +1,15 @@
+{
+	"name": "token-metrics",
+	"version": "0.1.0",
+	"private": true,
+	"description": "Real-time tokens/second, time to first token, and session/lifetime averages for Command Code.",
+	"type": "module",
+	"repository": "https://github.com/gnahiak2/token-metrics",
+	"keywords": ["cmd-mod", "cmd-mod-hook", "cmd-mod-command", "cmd-mod-widget"],
+	"commandcode": {
+		"mods": ["./index.ts"]
+	},
+	"scripts": {
+		"test": "node --test metrics.test.ts tracker.test.ts lifetime.test.ts index.test.ts"
+	}
+}
