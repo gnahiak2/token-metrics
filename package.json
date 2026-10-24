@@ -22,10 +22,10 @@
 		"observability"
 	],
 	"files": [
-		"index.ts",
-		"metrics.ts",
-		"tracker.ts",
-		"lifetime.ts",
+		"src/index.ts",
+		"src/metrics.ts",
+		"src/tracker.ts",
+		"src/lifetime.ts",
 		"README.md"
 	],
 	"engines": {
@@ -36,7 +36,7 @@
 	},
 	"commandcode": {
 		"mods": [
-			"./index.ts"
+			"./src/index.ts"
 		]
 	},
 	"scripts": {

@@ -3,7 +3,7 @@ import {mkdtemp, readFile, rm} from 'node:fs/promises';
 import {tmpdir} from 'node:os';
 import {join} from 'node:path';
 import test from 'node:test';
-import {createTokenMetricsMod} from './index.ts';
+import {createTokenMetricsMod} from './src/index.ts';
 
 interface FakeHost {
 	readonly cmd: any;

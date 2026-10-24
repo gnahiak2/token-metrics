@@ -13,7 +13,7 @@ import {
 	liveRate,
 	mergeAggregate,
 	sanitizeAggregate,
-} from './metrics.ts';
+} from './src/metrics.ts';
 
 test('addSample keeps weighted token totals and separate TTFT samples', () => {
 	const aggregate = emptyAggregate();

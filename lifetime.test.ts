@@ -3,8 +3,8 @@ import {mkdtemp, readFile, readdir, rm, writeFile} from 'node:fs/promises';
 import {tmpdir} from 'node:os';
 import {join} from 'node:path';
 import test from 'node:test';
-import {aggregateFromSample, mergeAggregate, emptyAggregate} from './metrics.ts';
-import {LifetimeStore} from './lifetime.ts';
+import {aggregateFromSample, mergeAggregate, emptyAggregate} from './src/metrics.ts';
+import {LifetimeStore} from './src/lifetime.ts';
 
 async function withDirectory(run: (directory: string) => Promise<void>): Promise<void> {
 	const directory = await mkdtemp(join(tmpdir(), 'token-metrics-'));

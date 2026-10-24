@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import {aggregateAverages, safeJsonLength, type Sample} from './metrics.ts';
-import {TokenTracker} from './tracker.ts';
+import {aggregateAverages, safeJsonLength, type Sample} from './src/metrics.ts';
+import {TokenTracker} from './src/tracker.ts';
 
 function clockedTracker() {
 	let now = 0;

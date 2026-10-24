@@ -53,7 +53,7 @@ A hard crash can leave a stale `.lock`; it is removed automatically after 10 sec
 
 ```bash
 npm test
-cmd --mod ~/.commandcode/mods/token-metrics/index.ts
+cmd --mod ~/.commandcode/mods/token-metrics/src/index.ts
 cmd mods list
 ```
 
