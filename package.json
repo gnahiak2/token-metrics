@@ -12,6 +12,7 @@
 		"url": "https://github.com/gnahiak2/token-metrics/issues"
 	},
 	"author": "Kaihang (https://github.com/gnahiak2)",
+	"license": "MIT",
 	"keywords": [
 		"cmd-mod",
 		"cmd-mod-command",
