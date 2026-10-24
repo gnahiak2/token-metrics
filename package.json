@@ -3,7 +3,10 @@
 	"version": "0.1.0",
 	"description": "Real-time tokens/second, time to first token, and session/lifetime averages for Command Code.",
 	"type": "module",
-	"repository": "https://github.com/gnahiak2/token-metrics",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/gnahiak2/token-metrics.git"
+	},
 	"homepage": "https://github.com/gnahiak2/token-metrics#readme",
 	"bugs": {
 		"url": "https://github.com/gnahiak2/token-metrics/issues"
@@ -32,7 +35,9 @@
 		"access": "public"
 	},
 	"commandcode": {
-		"mods": ["./index.ts"]
+		"mods": [
+			"./index.ts"
+		]
 	},
 	"scripts": {
 		"test": "node --test metrics.test.ts tracker.test.ts lifetime.test.ts index.test.ts"
